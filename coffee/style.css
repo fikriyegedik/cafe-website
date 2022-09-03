@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(cyril-saulnier-mpSMThAU4OY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+
+}
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+}
+.nav-logo img{
+    width: 135px;
+}
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block ;
+    padding: 8px 25px;
+}
+.nav-links ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+.btn{
+    padding: 15px 30px;
+    border: 0;
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+.nav-links .btn{
+    float: right;
+
+}
+.banner-tittle{
+    margin: 80px 130px;
+    color: #fff;
+}
+.banner-tittle h1{
+    font-size: 54px ;
+    margin-bottom: 30px;
+}
+.banner-tittle h1 span{
+    color: yellow;
+}
